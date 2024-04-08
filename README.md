@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./_C__Users_dell_Desktop_notZairus_FrontendMentor_AgeCalculator_index.html.png)
-![](./_C__Users_dell_Desktop_notZairus_FrontendMentor_AgeCalculator_index.html%20(1).png)
+![Desktop View](./_C__Users_dell_Desktop_notZairus_FrontendMentor_AgeCalculator_index.html.png)
+![Mobile View](./_C__Users_dell_Desktop_notZairus_FrontendMentor_AgeCalculator_index.html%20(1).png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/notZairus/FrontendMentor_AgeCalculator)
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://notzairus.github.io/FrontendMentor_AgeCalculator/))
 
 ## My process
 
