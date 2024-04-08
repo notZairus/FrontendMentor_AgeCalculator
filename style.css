@@ -1,0 +1,188 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+
+}
+
+* {
+  font-family: Poppins;
+}
+
+body {
+  background: hsl(0, 0%, 94%);
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+main {
+  width: 38%;
+  background: white;
+  border-radius: 25px;
+  border-bottom-right-radius: 30%;
+  padding: 60px 70px;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+form div {
+  display: inline;
+  padding-right: 25px;
+  position: relative;
+  width: 22%;
+}
+
+form div p {
+  margin: 0px;
+}
+
+form div input {
+  font-size: 32px;
+  width: 100%;
+  font-weight: 700;
+  padding: 8px 15px;
+  border: 1px solid rgb(221, 215, 215);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: block;
+}
+
+input::placeholder {
+  color: rgb(196, 187, 187);
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0px 0px;
+}
+
+.button-container .line {
+  width: 100%;
+  height: 1px;
+  background: rgb(189, 184, 184);
+}
+
+.button-container img {
+  background-color: hsl(259, 100%, 65%);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.button-container img:hover {
+  background-color: hsl(259, 69%, 39%);
+}
+
+.button-container img:active {
+  background-color: hsl(0, 0%, 0%);
+}
+
+.age-container p {
+  font-weight: 900;
+  font-size: 5rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.age-container p span {
+  color: hsl(259, 100%, 65%);
+}
+
+span {
+  font-size: 5rem;
+}
+
+.error-p {
+  padding-top: 6px;
+  font-size: 0.8rem;
+}
+
+.error {
+  color: hsl(0, 100%, 67%);
+  border-color: hsl(0, 100%, 67%);
+}
+
+@media screen and (max-width: 1441px) {
+  main {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  main {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .age-container p {
+    font-size: 3rem;
+  }
+
+  span {
+    font-size: 3rem;
+  }
+
+  form div input {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 426px) {
+
+  main {
+    width: 97%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  form {
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  form div {
+    padding: 0px;
+    flex: 1;
+  }
+
+  form div input {
+    font-size: 1.4rem;
+  }
+
+  form div p {
+    font-size: 0.9rem;
+  }
+
+  .button-container {
+    position: relative;
+    padding: 50px 0px 70px;
+  }
+
+  .button-container .line {
+    width: 100%;
+  }
+
+  .button-container img {
+    position: absolute;
+    left: 39%;
+  }
+
+}
