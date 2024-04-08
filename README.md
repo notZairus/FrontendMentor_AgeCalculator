@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/notZairus/FrontendMentor_AgeCalculator)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://notzairus.github.io/FrontendMentor_AgeCalculator/))
+- Solution URL: [https://github.com/notZairus/FrontendMentor_AgeCalculator]
+- Live Site URL: [https://notzairus.github.io/FrontendMentor_AgeCalculator/]
 
 ## My process
 
